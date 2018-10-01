@@ -30,8 +30,8 @@ public class App extends Application {
         // default theme
         if (!ThemeStore.isConfigured(this, 1)) {
             ThemeStore.editTheme(this)
-                    .primaryColorRes(R.color.md_indigo_500)
-                    .accentColorRes(R.color.md_pink_A400)
+                    .primaryColorRes(R.color.md_blue_grey_500)
+                    .accentColorRes(R.color.md_amber_A400)
                     .commit();
         }
 
